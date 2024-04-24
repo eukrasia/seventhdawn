@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(176, 202, 218);
+    font-family: "Fira Code", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    max-width: 50%;
+    margin: auto;
+}
+
+h1, h5{
+ font-family: "Bebas Neue", 'Times New Roman', Times, serif;
+}
+
+.big-font{
+    font-family: "Fira Code", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
