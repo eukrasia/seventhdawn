@@ -54,9 +54,18 @@ footer{
     width: 100%;
 }
 
+article {
+    margin: auto;
+}
+
 section {
     margin: 2% auto;
     text-wrap:wrap;
+}
+
+#subject {
+    text-align: center;
+    font-size: 300%;
 }
 
 #wrapper {
@@ -83,6 +92,48 @@ section {
     text-decoration: none;
 }
 
+/*discography grids*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 20px;
+    column-gap: 250px;
+    margin-bottom: 30px;
+}
+
+.grid-item-1 {
+    align-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.grid-item-2 {
+    align-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.grid-item-3 {
+    align-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#img-fig {
+    max-width: 50%;
+
+}
+
+#title {
+    font-size: xx-large;
+    font-family: "Bebas Neue", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#img-caption {
+    font-family: "Bebas Neue", 'Times New Roman', Times, serif;
+}
 
 /*MEDIA QUERIES*/
     /* If the screen size is 600px or less, set the font-size of <div> to 30px */
@@ -115,5 +166,3 @@ section {
         text-align: left;
     }
 }
-
-@media screen and (orientation: portrait) { }
