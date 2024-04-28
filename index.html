@@ -23,7 +23,7 @@
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="./subpages/albums.html">Albums</a>
-          <li class="nav-item dropdown">
+          <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Related Links
             </a>
@@ -34,7 +34,7 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="https://na.finalfantasyxiv.com/blog/?utm_source=lodestone&utm_medium=pc_banner&utm_campaign=na_officalblog" target="_blank">Official Blog</a></li>
             </ul>
-          </li>
+          </div>
   
         </div>
       </div>
@@ -44,19 +44,23 @@
                 <!--Text "Have you heard of the Critically Acclaimed MMORPG" and underneath FFXIV Logo image-->
     <main id="main">
       <article>
-        <span id="biggest-font">Have you heard...</span> <span id="big-font">of the critically acclaimed MMOrpg</span>
+        <span class="biggest-font">Have you heard...</span> <span class="big-font">of the critically acclaimed MMOrpg</span>
       </article>
-        <img src="./media/images/logo.png" alt="Final Fantasy 14 Logo" class="logo">
+      <div id="img-fig">
+        <img id="image" src="./media/images/logo.png" alt="Final Fantasy 14 Logo">
+           <h6 id="img-caption"> 
+           Logo since release of A Realm Reborn</h6>
+      </div>
         <article id="tribute-info">
-          <span id="biggest-font">An online game, whose population exceeds over 30 million players.</span>
-            <section id="rcorners1">              
+          <span class="biggest-font">An online game, whose population exceeds over 30 million players.</span>
+            <section class="rcorners1">              
               <p>
                 "Final Fantasy XIV Online, also known collectively with its initial relaunched title Final Fantasy XIV: A Realm Reborn (ファイナルファンタジーXIV: 新生エオルゼア, Fainaru Fantajī Fōtin: Shinsei Eoruzea?, lit. Final Fantasy XIV: Eorzea Reborn), is the relaunched version of the fourteenth installment of the Final Fantasy series and the second, after Final Fantasy XI, to be an MMORPG (Massively Multiplayer Online Role-Playing Game)." - <a href="https://finalfantasy.fandom.com/wiki/Final_Fantasy_XIV" target="_blank" class="external-link">Final Fantasy Wiki</a>
               </p>
             </section>
         </article>          
-            <h2>Release Order</h2>
-              <table class="table table-striped tribute-info" id="smoll">
+            <h2 id="title">Release Order</h2>
+              <table class="table table-striped tribute-info smoll">
                 <thead>
                   <tr>
                     <th scope="col">Title</th>
@@ -79,32 +83,32 @@
                     <td>Base Game</td>
                   </tr>
                   <tr>
-                    <th scope="row">3.0</th>
-                    <td>Heavensward</td>
+                    <th scope="row">Heavensward</th>
+                    <td>3.0</td>
                     <td>6/23/15</td>
                     <td>Expansion</td>
                   </tr>
                   <tr>
-                    <th scope="row">4.0</th>
-                    <td>Stormblood</td>
+                    <th scope="row">Stormblood</th>
+                    <td>4.0</td>
                     <td>6/20/17</td>
                     <td>Expansion</td>
                   </tr>
                   <tr>
-                    <th scope="row">5.0</th>
-                    <td>Shadowbringers</td>
+                    <th scope="row">Shadowbringers</th>
+                    <td>5.0</td>
                     <td>7/2/19</td>
                     <td>Expansion</td>
                   </tr>
                   <tr>
-                    <th scope="row">6.0</th>
-                    <td>Endwalker</td>
+                    <th scope="row">Endwalker</th>
+                    <td>6.0</td>
                     <td>12/7/21</td>
                     <td>Expansion</td>
                   </tr>
                   <tr>
-                    <th scope="row">7.0</th>
-                    <td>Dawntrail</td>
+                    <th scope="row">Dawntrail</th>
+                    <td>7.0</td>
                     <td>7/2/24</td>
                     <td>Expansion</td>
                   </tr>
@@ -113,7 +117,7 @@
               <h6>information pulled from <a href="https://en.wikipedia.org/wiki/Final_Fantasy_XIV" class="tribute-link" target="_blank">Wikipedia</a></h6>
 
         <article>
-            <section id="rcorners1">
+            <section class="rcorners1">
               <p>
                 It's not just a joke when the community promotes the well beloved <b>M</b>ass <b>M</b>ultiplayer <b>O</b>nline <b>R</b>ole <b>P</b>lay <b>G</b>ame. FFXIV has been out for 10 years now, 
                 and as someone who has played since patch 2.5 (the last A Realm Reborn patch before Heavensward), I have thoroughly enjoyed my time 
@@ -125,19 +129,19 @@
         </article>
         <!--Tried carousel, fuck carousel.-->
         <div class="card-group">
-          <div class="card" style="width: 18rem;" id="cap-font">
+          <div class="card cap-font" style="width: 18rem;">
             <img src="./media/images/riellequote.png" alt="Rielle: You can't obsess over the mistakes of the past, or you'll lose sight of the future. Of the people still with us, who need us more than ever.">
             <div class="card-body">
               <p class="card-text">Well written stories.</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;" id="cap-font">
+          <div class="card cap-font" style="width: 18rem;">
             <img src="./media/images/meandbf.png" alt="Two cat people standing next to each other with hearts, looking at the camera.">
             <div class="card-body">
               <p class="card-text">Meaningful Connections Worldwide</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;" id="cap-font">
+          <div class="card cap-font" style="width: 18rem;">
             <img src="./media/images/raidclear.png" alt="A group of people standing around an unopen chest.">
             <div class="card-body">
               <p class="small-font">P12S Clear Group Photo</p>
@@ -145,7 +149,7 @@
           </div>
         <!--End Card-->
         <article>
-          <section id="rcorners1">
+          <section class="rcorners1">
             <p>
               For all the time I've spent on FFXIV, I've never met a more welcoming and supportive group of people. The connections I've developed with my friends are no 
               different from people offline. It doesn't matter to me whether we're cities, states, or continents apart. It's the bond we've forged through our shared experiences, 
